@@ -1,0 +1,742 @@
+::placeholder {
+    color: rgba(10, 10, 10, 0.7) !important;
+}
+:-ms-input-placeholder {
+    color: rgba(10, 10, 10, 0.7) !important;
+}
+::-ms-input-placeholder {
+    color: rgba(10, 10, 10, 0.7) !important;
+}
+*:focus {
+    outline: none;
+}
+#cod_message_title{
+    font-family: "Source Sans Pro", sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+#cod_message_body{
+    margin-top: 4px !important;
+    position: absolute !important;
+}
+.mpesa-content {
+    position: absolute !important;
+    width: 25px !important;
+    height: 25px !important;
+    left: 5px !important;
+    top: 2px !important;
+}
+#Carddp-mpesa {
+    position: absolute !important;
+    width: 70px !important;
+    height: 20px !important;
+    left: 5px !important;
+    top: 13px !important;
+    color: rgba(10, 10, 10, 0.7) !important;
+}
+.card-content {
+    position: absolute !important;
+    width: 15px !important;
+    height: 15px !important;
+    left: 5px !important;
+    top: 2px !important;
+}
+#Carddp-card {
+    position: absolute !important;
+    width: 70px !important;
+    height: 20px !important;
+    left: 5px !important;
+    top: 13px !important;
+    color: rgba(10, 10, 10, 0.7) !important;
+}
+
+.cod-content {
+    position: absolute !important;
+    width: 15px !important;
+    height: 15px !important;
+    left: 5px !important;
+    top: 2px !important;
+}
+#Carddp-cod {
+    position: absolute !important;
+    width: 70px !important;
+    height: 20px !important;
+    left: 5px !important;
+    top: 13px !important;
+    color: rgba(10, 10, 10, 0.7) !important;
+}
+
+#Rectangle_2002_hd_carddp {
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+#Group_6097_carddp {
+    position: absolute !important;
+    width: 65px !important;
+    height: 45px !important;
+    left: 4px !important;
+    top: 28px !important;
+    overflow: visible !important;
+    cursor: pointer !important;
+    background: #fff;
+    border-radius: 6px;
+    border: solid 1px #0a0a0a;
+}
+#Group_60977_carddp {
+    position: absolute !important;
+    width: 65px !important;
+    height: 45px !important;
+    left: 90px !important;
+    top: 28px !important;
+    overflow: visible !important;
+    cursor: pointer !important;
+    background: #fff;
+    border-radius: 6px;
+    border: solid 1px #0a0a0a;
+}
+#Group_60977_coddp {
+    position: absolute !important;
+    width: 65px !important;
+    height: 45px !important;
+    left: 180px !important;
+    top: 28px !important;
+    overflow: visible !important;
+    cursor: pointer !important;
+    background: #fff;
+    border-radius: 6px;
+    border: solid 1px #0a0a0a;
+}
+#tile-heading {
+    font-family: "Source Sans Pro", sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+}
+#Image_14dp {
+    position: absolute !important;
+    width: 29px !important;
+    height: 22px !important;
+    left: 0px !important;
+    top: 3px !important;
+    overflow: visible !important;
+}
+#Carddp {
+    height: 35px;
+    left: 12px !important;
+    top: 27px !important;
+    position: absolute !important;
+    overflow: visible !important;
+    width: 40px !important;
+    white-space: nowrap !important;
+    line-height: 45px !important;
+    text-align: left !important;
+    font-family: "Source Sans Pro", sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    color: rgba(10, 10, 10, 0.7) !important;
+}
+#Mpesadp {
+    height: 35px;
+    left: 12px !important;
+    top: 27px !important;
+    position: absolute !important;
+    overflow: visible !important;
+    width: 40px !important;
+    white-space: nowrap !important;
+    line-height: 45px !important;
+    text-align: left !important;
+    font-family: "Source Sans Pro", sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    color: rgba(10, 10, 10, 0.7) !important;
+}
+#Card_Information_carddp {
+    height: 10px;
+    left: 4px !important;
+    top: 2px !important;
+    position: absolute !important;
+    overflow: visible !important;
+    width: 181px !important;
+    white-space: nowrap !important;
+    line-height: 45px !important;
+    margin-top: -15.5px !important;
+    text-align: left !important;
+    font-family: "Source Sans Pro", sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    color: rgba(0, 0, 0, 1) !important;
+}
+#Card_Information_coddp {
+    height: 10px;
+    left: 9px !important;
+    top: 2px !important;
+    position: absolute !important;
+    overflow: visible !important;
+    width: 181px !important;
+    padding-top: 22px;
+    white-space: nowrap !important;
+    line-height: 21px !important;
+    margin-top: -15.5px !important;
+    text-align: left !important;
+    font-family: "Source Sans Pro", sans-serif !important;
+    font-style: normal !important;
+    font-size: 13px !important;
+    color: rgba(0, 0, 0, 1) !important;
+}
+#coddetails {
+    visibility: hidden;
+}
+#bnkdtails {
+    visibility: hidden;
+}
+@media only screen and (max-width: 768px) {
+    #card-holder {
+        background: #fff;
+        position: absolute;
+        overflow: visible;
+        width: 250px;
+        height: 105px;
+        left: 0px;
+        top: 40px;
+        border: solid 1px rgba(10, 10, 10, 0.7);
+        border-radius: 6px;
+        padding: 5px;
+    }
+    .Rectangle_2002_hd_carddp {
+        position: absolute;
+        overflow: visible;
+        width: 250px;
+        height: 105px;
+        left: 0px;
+        top: 26.998px;
+        border: solid 1px rgba(10, 10, 10);
+        border-radius: 6px;
+    }
+    #billing_email_inputdp {
+        background: transparent;
+        width: 321px;
+        height: 46px;
+        left: 9px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        vertical-align: middle;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        padding-left: 7px;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        border: 0;
+    }
+    #phonenumber_inputdp {
+        background: transparent;
+        width: 190px;
+        height: 46px;
+        left: 60px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        horizontal-align: middle;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        padding: 3px;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        border: 0;
+    }
+    #phonenumberdp {
+        background: #fff;
+        width: 252px;
+        height: 48px;
+        left: -0.001px;
+        top: 26.998px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        text-indent: 15px;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 14px;
+        color: rgba(10, 10, 10, 0.7);
+        border-radius: 6px;
+        border: solid 1px rgba(10, 10, 10, 0.7);
+    }
+    #phonenumber254dp {
+        width: 60px;
+        height: 35px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        padding-top: 13px;
+        padding-left: 5px;
+        vertical-align: middle;
+        font-size: 14px;
+        border-right: solid 1px rgba(10, 10, 10, 0.7);
+        border-left: 0;
+        border-top: 0;
+        border-bottom: 0;
+    }
+    #Card_typesdp1 {
+        left: 143px;
+        width: 10px;
+        top: -10px;
+        position: absolute;
+        overflow: visible;
+        z-index: 1;
+    }
+    #Card_typesdp2 {
+        left: 178px;
+        width: 10px;
+        top: -10px;
+        display: inline-block;
+        position: absolute;
+        overflow: visible;
+        z-index: 1;
+    }
+    #Card_typesdp3 {
+        left: 213px;
+        width: 10px;
+        top: -10px;
+        display: inline-block;
+        position: absolute;
+        overflow: visible;
+        z-index: 1;
+    }
+    #cardnumberdp {
+        background: transparent;
+        position: absolute;
+        width: 249px;
+        height: 56px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-indent: 15px;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        box-shadow: 0 0 0 0px #000;
+        background: transparent;
+        border-bottom: solid 1px rgba(10, 10, 10, 0.7);
+    }
+    #cardnumber_inputdp {
+        background: transparent;
+        width: 245px;
+        height: 54px;
+        left: 0px;
+        top: 6px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        padding-top: 20px;
+        padding-left: 7px;
+        margin-bottom: 17px;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        border: 0 !important;
+    }
+    #cardexpiary_inputdp {
+        background: transparent;
+        width: 145px;
+        height: 45px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        padding-top: 20px;
+        padding-left: 7px;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        border: 0 !important;
+    }
+    #cardyeardp {
+        background: transparent;
+        position: absolute;
+        width: 145px;
+        height: 46px;
+        left: 2px;
+        top: 57px;
+        overflow: visible;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-indent: 15px;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        padding: 15px;
+    }
+    #cardcvcdp {
+        background: transparent;
+        position: absolute;
+        width: 90px;
+        height: 47px;
+        left: 150px;
+        top: 56px;
+        overflow: visible;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-indent: 15px;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        border-left: solid 1px rgba(10, 10, 10, 0.7);
+    }
+    #cardcvc_inputdp {
+        background: transparent;
+        width: 96px;
+        height: 46px !important;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        padding-top: 12px;
+        padding-left: 7px;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        border: 0 !important;
+    }
+}
+@media (min-device-width: 768px) {
+    #card-holder {
+        background: #fff;
+        position: absolute;
+        overflow: visible;
+        width: 330px;
+        height: 95px;
+        left: 0px;
+        top: 40px;
+        border: solid 1px rgba(10, 10, 10, 0.7);
+        border-radius: 6px;
+        padding: 5px;
+    }
+    .Rectangle_2002_hd_carddp {
+        position: absolute;
+        overflow: visible;
+        width: 330px;
+        height: 95px;
+        left: 0px;
+        top: 26.998px;
+        border: solid 1px rgba(10, 10, 10, 0.7);
+        border-radius: 6px;
+    }
+
+    #phonenumber_inputdp {
+        background: transparent;
+        width: 290px;
+        height: 46px;
+        left: 60px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        vertical-align: middle;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        padding-left: 7px;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        border: 0;
+    }
+    #phonenumberdp {
+        background: #fff;
+        width: 342px;
+        height: 48px;
+        left: -0.001px;
+        top: 26.998px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        text-indent: 15px;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 14px;
+        color: rgba(10, 10, 10, 0.7);
+        border-radius: 6px;
+        box-shadow: 0 0 0 0px #000;
+        border: solid 1px rgba(10, 10, 10, 0.7);
+    }
+    #phonenumber254dp {
+        width: 60px;
+        height: 35px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        padding-top: 13px;
+        padding-left: 5px;
+        vertical-align: middle;
+        font-size: 14px;
+        border-right: solid 1px rgba(10, 10, 10, 0.7);
+        border-left: 0;
+        border-top: 0;
+        border-bottom: 0;
+    }
+    #Card_typesdp1 {
+        left: 228px;
+        top: -10px;
+        position: absolute;
+        overflow: visible;
+        z-index: 1;
+    }
+    #Card_typesdp2 {
+        left: 263px;
+        top: -10px;
+        display: inline-block;
+        position: absolute;
+        overflow: visible;
+        z-index: 1;
+    }
+    #Card_typesdp3 {
+        left: 297px;
+        top: -10px;
+        display: inline-block;
+        position: absolute;
+        overflow: visible;
+        z-index: 1;
+    }
+    #cardnumberdp {
+        background: transparent;
+        position: absolute;
+        width: 329px;
+        height: 46px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-indent: 15px;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 16px;
+        border-bottom: solid 1px rgba(10, 10, 10, 0.7);
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+    }
+    #cardnumber_inputdp {
+        background: transparent;
+        width: 320px;
+        height: 44px;
+        left: 0px;
+        top: 5px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        padding-top: 12px;
+        padding-left: 7px;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        border: 0;
+    }
+    #cardcvcdp {
+        background: transparent;
+        position: absolute;
+        width: 145px;
+        height: 47px;
+        left: 180px;
+        top: 46px;
+        overflow: visible;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-indent: 15px;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        border-left: solid 1px rgba(10, 10, 10, 0.7);
+        border-right: 0;
+        border-top: 0;
+        border-bottom: 0;
+        padding: 15px;
+    }
+    #cardcvc_inputdp {
+        background: transparent;
+        width: 145px;
+        height: 44px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        padding-top: 12px;
+        padding-left: 7px;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        border: 0;
+    }
+    #cardexpiary_inputdp {
+        background: transparent;
+        width: 180px;
+        height: 45px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        padding-top: 12px;
+        padding-left: 7px;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        border: 0;
+    }
+    #cardyeardp {
+        background: transparent;
+        position: absolute;
+        width: 180px;
+        height: 46px;
+        left: 2px;
+        top: 47px;
+        overflow: visible;
+        position: absolute;
+        overflow: visible;
+        white-space: nowrap;
+        text-indent: 15px;
+        font-family: "Source Sans Pro", sans-serif;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 16px;
+        color: rgba(10, 10, 10, 0.7);
+        padding: 15px;
+        border: 0;
+    }
+}
+
+.payment-title {
+    width: 100%;
+    text-align: center;
+}
+.form-container .field-container:first-of-type {
+    grid-area: name;
+}
+.form-container .field-container:nth-of-type(2) {
+    grid-area: number;
+}
+.form-container .field-container:nth-of-type(3) {
+    grid-area: expiration;
+}
+.form-container .field-container:nth-of-type(4) {
+    grid-area: security;
+}
+.field-container input {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.field-container {
+    position: relative;
+}
+.form-container {
+    display: grid !important;
+    grid-column-gap: 5px !important;
+    grid-template-columns: auto auto !important;
+    grid-template-rows: 90px 90px 90px !important;
+    grid-template-areas: "name name" "number number" "expiration security" !important;
+    max-width: 420px !important;
+    padding: 0.5px !important;
+    color: #707070;
+}
+label {
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+input {
+    margin-top: 3px;
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+}
+.ccicon {
+    height: 38px;
+    position: absolute;
+    right: 6px;
+    top: calc(50% - 17px);
+    width: 60px;
+}
+.center-mine {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+#Group_6097_carddp:hover {
+    background-color: #377de8 !important;
+    color: white !important;
+}
+#Group_60977_carddp:hover {
+    background-color: #377de8 !important;
+    color: white !important;
+}
+#Group_60977_coddp:hover {
+    background-color: #377de8 !important;
+    color: white !important;
+}
+input:-webkit-autofill {
+    -webkit-text-fill-color: var(--text-input-color) !important;
+    -webkit-box-shadow: 0 0 0 1rem var(--page-background-color) inset !important;
+    background-clip: content-box !important;
+}

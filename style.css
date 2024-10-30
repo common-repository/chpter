@@ -1,0 +1,263 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* CSS */
+.button-1 {
+    background-color: rgb(71, 118, 245);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+    background-color: #F082AC;
+}
+
+.float-right{
+    float: right;
+}
+
+
+/* success icon */
+.center-mine {
+    display: block  !important;
+    margin-left: auto  !important;
+    margin-right: auto  !important;}
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+    
+    /* CSS */
+    .button-1 {
+        background-color: rgb(71, 118, 245);
+        border-radius: 8px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        height: 40px;
+        line-height: 20px;
+        list-style: none;
+        margin: 0;
+        outline: none;
+        padding: 10px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: color 100ms;
+        vertical-align: baseline;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+    
+    .button-1:hover,
+    .button-1:focus {
+        background-color: #F082AC;
+    }
+    
+    .float-right{
+        float: right;
+        color: #000 !important;
+    }
+    
+    
+    /* success icon */
+    .center-mine {
+        display: block  !important;
+        margin-left: auto  !important;
+        margin-right: auto  !important;}
+    
+        .chpter-label{
+            padding: 5px !important;
+        }
+        
+        .chpter-radio {
+            margin: 10px !important;
+            display: inline-block !important;
+          }
+          
+        
+        
+          .chpter-radio  input[type="radio"] {
+            opacity: 0 !important;
+            position: fixed !important;
+            width: 0 !important;
+
+          }
+          
+          .chpter-radio  label {
+              display: inline-block !important;
+              background-color: #fff !important;
+              padding: 10px 20px !important;
+              font-family: sans-serif, Arial !important;
+              font-size: 16px !important;
+             
+              border: 2px solid #808080 !important;
+              border-radius: 4px !important;
+          }
+          
+          .chpter-radio  label:hover {
+            background-color: #377DE8 !important;
+            color:white !important;
+          }
+          
+          .chpter-radio input[type="radio"]:focus + label {
+            border: 2px solid #377DE8 !important;
+           
+            
+          }
+          
+          .chpter-radio input[type="radio"]:checked + label {
+              border-color: #377DE8 !important;
+              color: black !important;
+          }
+          
+          
+          ul.gform_fields{margin: 0 !important; padding: 0 !important;}
+          ul.gform_fields .gfield{overflow: hidden !important; margin-bottom: 25px !important;}
+          .gform_fields label{color: #454545 !important;}
+           
+          .woocommerce select {position: relative !important; display: inline-block !important; font-family: 'libre baskerville', georgia, serif !important; font-size: 14px !important; display: inline-block !important; margin: 0 !important; padding: 10px !important; line-height: 1.5 !important;color: #000 !important; background-color: #fff !important; width: 100% !important; cursor: pointer !important; outline: 0 !important;  border: 2px solid #808080 !important;}
+          .woocommerce select option{color: #7e7e7e !important; font-size: 18px !important; padding: 3px !important; border: 0px !important;}
+           
+          /* Undo the Firefox inner focus ring */
+          .woocommerce select:focus:-moz-focusring {color: transparent !important; text-shadow: 0 0 0 #454545 !important;}
+           
+          /* Dropdown arrow */
+          .woocommerce select:after {position: absolute !important; top: 50% !important; right: 1.25rem !important; display: inline-block !important; content: "v" !important; width: 0 !important; height: 0 !important; margin-top: -.15rem !important; pointer-events: none !important; border-top: .35rem solid !important; border-right: .35rem solid transparent !important; border-bottom: .35rem solid transparent !important; border-left: .35rem solid transparent !important;}
+           
+          /* Hover state */
+          /* Uncomment if you need it, but be aware of the sticky iOS states.
+          .select select:hover {
+            background-color: #ddd !important;
+          }
+          */
+           
+          /* Focus */
+          .woocommerce select select:focus {box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #377DE8 !important;}
+           
+          /* Active/open */
+          .woocommerce select select:active {color: #fff !important; background-color: #377DE8 !important;}
+           
+          /* Hide the arrow in IE10 and up */
+          .woocommerce select select::-ms-expand {display: none !important;}
+           
+          /* Media query to target Firefox only */
+           !important;-moz-document url-prefix() {
+            /* Firefox hack to hide the arrow */
+            .woocommerce select {
+              text-indent: 0.01px !important;
+              text-overflow: '' !important;
+              padding-right: 1rem !important;
+            }
+           
+            /* elements inherit styles from, so reset them. */
+            .woocommerce select option {
+              background-color: white !important;
+            }
+          }
+           
+          /* IE9 hack to hide the arrow */
+           !important;media screen and (min-width:0\0) {
+            .woocommerce select select {
+              z-index: 1 !important;
+              padding: .5rem 1.5rem .5rem 1rem !important;
+            }
+            .woocommerce select:after {
+              z-index: 5 !important;
+            }
+            .woocommerce select:before {
+              position: absolute !important;
+              top: 0 !important;
+              right: 1rem !important;
+              bottom: 0 !important;
+              z-index: 2 !important;
+              content: "" !important;
+              display: block !important;
+              width: 1.5rem !important;
+              background-color: #eee !important;
+            }
+            .woocommerce select select:hover,
+            .woocommerce select select:focus,
+            .woocommerce select select:active {
+              color: #555 !important;
+              background-color: #eee !important;
+            }
+          }
+
+          .invoice-title h2, .invoice-title h3 {
+            display: inline-block;
+        }
+        
+        .table > tbody > tr > .no-line {
+            border-top: none;
+        }
+        
+        .table > thead > tr > .no-line {
+            border-bottom: none;
+        }
+        
+        .table > tbody > tr > .thick-line {
+            border-top: 2px solid;
+        }
+
+        .chpter-sm-tb {
+            all: initial;
+            * {
+                all: unset;
+            }
+        }
+
+        .chpter-disp-b {
+           color: #000 !important;
+        }
+
+
+        .chpter-summary-top{
+            background-color: #E2E8F2 !important; width: 70% !important; padding: 20px !important; border-radius: 15px 15px 0px 0px !important;
+        }
+        .chpter-summary-mid{
+            background-color: #E2E8F2 !important; width: 70% !important; padding: 10px !important;
+        }
+        .chpter-summary-btm{
+            background-color: #E2E8F2 !important; width: 70% !important; padding: 10px !important; border-radius: 0px 0px 10px 10px !important;
+         
+        }
+
+
+            .woocommerce input{
+                border: 2px solid #808080 !important;
+            }
